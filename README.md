@@ -1,5 +1,8 @@
 # Rails example app with dry-system
 
+
+> Object dependency management system based on dry-container and dry-auto_inject allowing you to configure reusable components in any environment, set up their load-paths, require needed files and instantiate objects automatically with the ability to have them injected as dependencies.
+
 [dry container](https://dry-rb.org/gems/dry-system/master/container/)
 
 ## IoC container and autoload
