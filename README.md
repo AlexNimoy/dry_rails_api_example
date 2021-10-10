@@ -4,7 +4,7 @@
 
 ## IoC container and autolod
 
-File `config/initializers/app_container.rb`
+File `config/initializers/app_container.rb` [link](/config/initializers/app_container.rb)
 
 contains the main configuration and injector
 
@@ -26,7 +26,7 @@ AppContainer.finalize! if Rails.env.production?
 
 Contains stub for IoC containers
 
-`spec/support/dry_system.rb`
+`spec/support/dry_system.rb` [link](/spec/support/dry_system.rb)
 
 In tests container may be stubbed like this
 
