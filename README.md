@@ -8,7 +8,7 @@ File `config/initializers/app_container.rb` [link](/config/initializers/app_cont
 
 contains the main configuration and injector
 
-```
+```ruby
 class AppContainer < Dry::System::Container
   configure do |config|
     config.name = :dry_rails_example
@@ -30,6 +30,6 @@ Contains stub for IoC containers
 
 In tests container may be stubbed like this
 
-```
-  AppContainer.stub('container.name', -> { 'result' })
+```ruby
+AppContainer.stub('container.name', -> { 'result' })
 ```
