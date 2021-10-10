@@ -2,7 +2,7 @@
 
 [dry container](https://dry-rb.org/gems/dry-system/master/container/)
 
-## IoC container and autolod
+## IoC container and autoload
 
 File `config/initializers/app_container.rb` [link](/config/initializers/app_container.rb)
 
